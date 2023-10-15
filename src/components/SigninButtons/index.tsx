@@ -3,7 +3,7 @@ import { SigninButtonsModel } from '../../models/accountsModel';
 
 const SigninButtons: React.FC<SigninButtonsModel> = ({ textBtnLeft, textBtnRight }) => {
     return (
-        <div className="flex space-x-3">
+        <div className="flex flex-row justify-between">
             <button className={`cursor-pointer border-none bg-white hover:bg-blue-50 text-blue-500 font-bold py-3 px-6 rounded`}>
                 {textBtnLeft}
             </button>
